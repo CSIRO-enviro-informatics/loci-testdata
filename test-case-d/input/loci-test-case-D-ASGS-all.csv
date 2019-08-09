@@ -1,0 +1,16 @@
+testcase	input	target_region_type
+D-ASGS-1-ACT-1	["sa1","80105105310"]	mb
+D-ASGS-1-ACT-2	["sa2","801051053"]	mb
+D-ASGS-1-ACT-3	["sa3","80105"]	mb
+D-ASGS-1-ACT-4	["sa4","801"]	mb
+D-ASGS-1-ACT-5	["ste","8"]	mb
+D-ASGS-2-ACT-1	["sa2","801051053"]	sa1
+D-ASGS-2-ACT-2	["sa3","80105"]	sa1
+D-ASGS-2-ACT-3	["sa4","801"]	sa1
+D-ASGS-2-ACT-4	["ste","8"]	sa1
+D-ASGS-3-ACT-1	["sa3","80105"]	sa2
+D-ASGS-3-ACT-2	["sa4","801"]	sa2
+D-ASGS-3-ACT-3	["ste","8"]	sa2
+D-ASGS-4-ACT-1	["sa4","801"]	sa3
+D-ASGS-4-ACT-2	["ste","8"]	sa3
+D-ASGS-5-ACT-1	["ste","8"]	sa4

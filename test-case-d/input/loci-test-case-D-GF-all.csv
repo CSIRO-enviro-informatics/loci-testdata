@@ -1,0 +1,4 @@
+testcase	input	target_region_type
+D-GF-1-1	["rr","9400357"]	cc
+D-GF-1-2	["dd","9400205"]	cc
+D-GF-2-1	["dd","9400205"]	rr
