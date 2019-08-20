@@ -1,7 +1,7 @@
 [
     [
         "<http://linked.data.gov.au/def/geofabric#ContractedCatchment>",
-        "30363"
+        "30461"
     ],
     [
         "geo:Feature",
@@ -17,7 +17,7 @@
     ],
     [
         "<http://linked.data.gov.au/def/geofabric#RiverRegion>",
-        "231"
+        "218"
     ],
     [
         "loci:Linkset",
