@@ -1,0 +1,403 @@
+@prefix asgs: <http://linked.data.gov.au/def/asgs#> .
+@prefix data: <http://linked.data.gov.au/def/datatype/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix geof: <http://linked.data.gov.au/def/geofabric#> .
+@prefix geox: <http://linked.data.gov.au/def/geox#> .
+@prefix gnaf: <http://linked.data.gov.au/def/gnaf#> .
+@prefix ns1: <http://www.w3.org/ns/qb4st/> .
+@prefix ns11: <http://purl.org/linked-data/registry#> .
+@prefix ns12: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://purl.org/linked-data/registry#> .
+@prefix ns21: <http://www.w3.org/ns/qb4st/> .
+@prefix ns22: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://purl.org/dc/elements/1.1/> .
+@prefix ns31: <http://linked.data.gov.au/def/datatype/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix asgs-code: http://linked.data.gov.au/def/asgs-code#> .
+@prefix asgs-id: http://linked.data.gov.au/def/asgs-id#> .
+
+<http://linked.data.gov.au/dataset/asgs2016/stateorterritory/2> a asgs:StateOrTerritory,
+        geo:Feature ;
+    asgs:contains <http://linked.data.gov.au/dataset/asgs2016/meshblock/20663970000>,
+        <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/20503108801>,
+        <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel2/205031088>,
+        <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel3/20503>,
+        <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel4/205> ;
+    asgs:label "VIC" ;
+    dcterms:identfier "2"^^asgs-d:stateCode2016 ;
+    asgs:label "Victoria"^^asgs-id:stateName2016 ;
+    dcterms:identfier "2"^^asgs-id:stateOrTerritory1DigitCode ;
+    geox:hasAreaM2 [ ns31:value 356137738800.02869 ;
+            ns21:crs <http://www.opengis.net/def/crs/EPSG/0/3857> ],
+        [ ns31:value 227495630400.0 ;
+            ns21:crs <http://www.opengis.net/def/crs/EPSG/0/3577> ] ;
+    loci:isMemberOf <http://linked.data.gov.au/dataset/asgs2016/stateorterritory/> .
+
+<http://linked.data.gov.au/dataset/geofabric/contractedcatchment/12101547> a geof:ContractedCatchment ;
+    geof:perimeterLength [ qudt:numericValue "0.839999999999691"^^xsd:float ;
+            qudt:unit <http://qudt.org/vocab/unit/DEG> ] ;
+    geof:shapeArea [ qudt:numericValue "0.0179125000000005"^^xsd:float ;
+            qudt:unit <http://qudt.org/vocab/unit/DEG2> ] ;
+    geox:hasAreaM2 [ ns31:value 173889207.14082238 ;
+            ns21:crs <http://www.opengis.net/def/crs/EPSG/0/4938> ],
+        [ ns31:value 173807875.618321 ;
+            ns21:crs <http://www.opengis.net/def/crs/EPSG/0/3577> ] ;
+    ns12:source "Bureau of Meteorology" ;
+    loci:isMemberOf <http://linked.data.gov.au/dataset/geofabric/contractedcatchment/> ;
+    geo:sfWithin <http://linked.data.gov.au/dataset/geofabric/drainagedivision/9400210>,
+        <http://linked.data.gov.au/dataset/geofabric/riverregion/9400345> .
+
+<http://linked.data.gov.au/dataset/gnaf-2016-05/address/GAVIC411457963> a gnaf:Address ;
+    rdfs:label "Address GAVIC411457963 of Unknown type"^^xsd:string ;
+    gnaf:gnafType <http://gnafld.net/def/gnaf/code/AddressTypes#Unknown> ;
+    gnaf:hasAddressSite <http://linked.data.gov.au/dataset/gnaf-2016-05/addressSite/411597020> ;
+    gnaf:hasDateCreated "2004-04-29"^^xsd:date ;
+    gnaf:hasDateLastModified "2013-11-10"^^xsd:date ;
+    gnaf:hasGnafConfidence <http://gnafld.net/def/gnaf/GnafConfidence_0> ;
+    gnaf:hasLocality <http://linked.data.gov.au/dataset/gnaf-2016-05/locality/VIC943> ;
+    gnaf:hasNumber [ a gnaf:Number ;
+            gnaf:gnafType <http://linked.data.gov.au/def/gnaf/code/NumberTypes#FirstStreet> ;
+            prov:value 2 ] ;
+    gnaf:hasPostcode 3921 ;
+    gnaf:hasState <http://www.geonames.org/2145234> ;
+    gnaf:hasStreetLocality <http://linked.data.gov.au/dataset/gnaf-2016-05/streetLocality/VIC2047702> ;
+    geo:hasGeometry [ a gnaf:Geocode ;
+            rdfs:label "Street Locality"^^xsd:string ;
+            gnaf:gnafType <http://gnafld.net/def/gnaf/code/GeocodeTypes#StreetLocality> ;
+            geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4283> POINT(145.31043640 -38.38502194)"^^geo:wktLiteral ] ;
+    rdfs:comment "2 Tankerton Road, French Island, VIC 3921"^^xsd:string .
+
+<http://linked.data.gov.au/dataset/gnaf-2016-05/address/GAVIC412676812> a gnaf:Address ;
+    rdfs:label "Address GAVIC412676812 of Unknown Lot type"^^xsd:string ;
+    gnaf:gnafType <http://gnafld.net/def/gnaf/code/AddressTypes#UnknownLot> ;
+    gnaf:hasAddressSite <http://linked.data.gov.au/dataset/gnaf-2016-05/addressSite/412831053> ;
+    gnaf:hasDateCreated "2012-07-15"^^xsd:date ;
+    gnaf:hasDateLastModified "2016-04-29"^^xsd:date ;
+    gnaf:hasGnafConfidence <http://gnafld.net/def/gnaf/GnafConfidence_0> ;
+    gnaf:hasLocality <http://linked.data.gov.au/dataset/gnaf-2016-05/locality/VIC943> ;
+    gnaf:hasNumber [ a gnaf:Number ;
+            gnaf:gnafType <http://linked.data.gov.au/def/gnaf/code/NumberTypes#Lot> ;
+            prov:value 10 ] ;
+    gnaf:hasPostcode 3921 ;
+    gnaf:hasState <http://www.geonames.org/2145234> ;
+    gnaf:hasStreetLocality <http://linked.data.gov.au/dataset/gnaf-2016-05/streetLocality/VIC2050994> ;
+    geo:hasGeometry [ a gnaf:Geocode ;
+            rdfs:label "Street Locality"^^xsd:string ;
+            gnaf:gnafType <http://gnafld.net/def/gnaf/code/GeocodeTypes#StreetLocality> ;
+            geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4283> POINT(145.31364001 -38.39395284)"^^geo:wktLiteral ] ;
+    rdfs:comment "LOT 10 Ten Chain Road, French Island, VIC 3921"^^xsd:string .
+
+<http://linked.data.gov.au/dataset/gnaf-2016-05/address/GAVIC412676813> a gnaf:Address ;
+    rdfs:label "Address GAVIC412676813 of Unknown Lot type"^^xsd:string ;
+    gnaf:gnafType <http://gnafld.net/def/gnaf/code/AddressTypes#UnknownLot> ;
+    gnaf:hasAddressSite <http://linked.data.gov.au/dataset/gnaf-2016-05/addressSite/412831054> ;
+    gnaf:hasDateCreated "2010-10-21"^^xsd:date ;
+    gnaf:hasDateLastModified "2016-04-29"^^xsd:date ;
+    gnaf:hasGnafConfidence <http://gnafld.net/def/gnaf/GnafConfidence_0> ;
+    gnaf:hasLocality <http://linked.data.gov.au/dataset/gnaf-2016-05/locality/VIC943> ;
+    gnaf:hasNumber [ a gnaf:Number ;
+            gnaf:gnafType <http://linked.data.gov.au/def/gnaf/code/NumberTypes#Lot> ;
+            prov:value 3 ] ;
+    gnaf:hasPostcode 3921 ;
+    gnaf:hasState <http://www.geonames.org/2145234> ;
+    gnaf:hasStreetLocality <http://linked.data.gov.au/dataset/gnaf-2016-05/streetLocality/VIC2047702> ;
+    geo:hasGeometry [ a gnaf:Geocode ;
+            rdfs:label "Street Locality"^^xsd:string ;
+            gnaf:gnafType <http://gnafld.net/def/gnaf/code/GeocodeTypes#StreetLocality> ;
+            geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4283> POINT(145.31043640 -38.38502194)"^^geo:wktLiteral ] ;
+    rdfs:comment "LOT 3 Tankerton Road, French Island, VIC 3921"^^xsd:string .
+
+<http://linked.data.gov.au/dataset/gnaf-2016-05/address/GAVIC412678961> a gnaf:Address ;
+    rdfs:label "Address GAVIC412678961 of Unknown Lot type"^^xsd:string ;
+    gnaf:gnafType <http://gnafld.net/def/gnaf/code/AddressTypes#UnknownLot> ;
+    gnaf:hasAddressSite <http://linked.data.gov.au/dataset/gnaf-2016-05/addressSite/412831149> ;
+    gnaf:hasDateCreated "2012-07-15"^^xsd:date ;
+    gnaf:hasDateLastModified "2016-04-29"^^xsd:date ;
+    gnaf:hasGnafConfidence <http://gnafld.net/def/gnaf/GnafConfidence_0> ;
+    gnaf:hasLocality <http://linked.data.gov.au/dataset/gnaf-2016-05/locality/VIC943> ;
+    gnaf:hasNumber [ a gnaf:Number ;
+            gnaf:gnafType <http://linked.data.gov.au/def/gnaf/code/NumberTypes#Lot> ;
+            prov:value 4 ] ;
+    gnaf:hasPostcode 3921 ;
+    gnaf:hasState <http://www.geonames.org/2145234> ;
+    gnaf:hasStreetLocality <http://linked.data.gov.au/dataset/gnaf-2016-05/streetLocality/VIC2021808> ;
+    geo:hasGeometry [ a gnaf:Geocode ;
+            rdfs:label "Street Locality"^^xsd:string ;
+            gnaf:gnafType <http://gnafld.net/def/gnaf/code/GeocodeTypes#StreetLocality> ;
+            geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4283> POINT(145.35477441 -38.35923250)"^^geo:wktLiteral ] ;
+    rdfs:comment "LOT 4 Mt Wellington Road, French Island, VIC 3921"^^xsd:string .
+
+<http://linked.data.gov.au/dataset/gnaf-2016-05/address/GAVIC412678963> a gnaf:Address ;
+    rdfs:label "Address GAVIC412678963 of Unknown Lot type"^^xsd:string ;
+    gnaf:gnafType <http://gnafld.net/def/gnaf/code/AddressTypes#UnknownLot> ;
+    gnaf:hasAddressSite <http://linked.data.gov.au/dataset/gnaf-2016-05/addressSite/412831151> ;
+    gnaf:hasDateCreated "2012-07-15"^^xsd:date ;
+    gnaf:hasDateLastModified "2016-04-29"^^xsd:date ;
+    gnaf:hasGnafConfidence <http://gnafld.net/def/gnaf/GnafConfidence_1> ;
+    gnaf:hasLocality <http://linked.data.gov.au/dataset/gnaf-2016-05/locality/VIC943> ;
+    gnaf:hasNumber [ a gnaf:Number ;
+            gnaf:gnafType <http://linked.data.gov.au/def/gnaf/code/NumberTypes#Lot> ;
+            prov:value 6 ] ;
+    gnaf:hasPostcode 3921 ;
+    gnaf:hasState <http://www.geonames.org/2145234> ;
+    gnaf:hasStreetLocality <http://linked.data.gov.au/dataset/gnaf-2016-05/streetLocality/VIC2047702> ;
+    geo:hasGeometry [ a gnaf:Geocode ;
+            rdfs:label "Street Locality"^^xsd:string ;
+            gnaf:gnafType <http://gnafld.net/def/gnaf/code/GeocodeTypes#StreetLocality> ;
+            geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4283> POINT(145.31043640 -38.38502194)"^^geo:wktLiteral ] ;
+    rdfs:comment "LOT 6 Tankerton Road, French Island, VIC 3921"^^xsd:string .
+
+<http://linked.data.gov.au/dataset/geofabric/riverregion/9400345> a geof:RiverRegion ;
+    geof:perimeterLength [ qudt:numericValue "7.29500000999951"^^xsd:float ;
+            qudt:unit <http://qudt.org/vocab/unit/DEG> ] ;
+    geof:shapeArea [ qudt:numericValue "0.420656250019993"^^xsd:float ;
+            qudt:unit <http://qudt.org/vocab/unit/DEG2> ] ;
+    geox:hasAreaM2 [ ns31:value 4093249298.60174 ;
+            ns21:crs <http://www.opengis.net/def/crs/EPSG/0/3577> ],
+        [ ns31:value 4095241735.25676 ;
+            ns21:crs <http://www.opengis.net/def/crs/EPSG/0/4938> ] ;
+    ns12:source "Bureau of Meteorology",
+        "Geoscience Australia" ;
+    ns22:title "Bunyip River"@en ;
+    loci:isMemberOf <http://linked.data.gov.au/dataset/geofabric/riverregion/> ;
+    geo:sfWithin <http://linked.data.gov.au/dataset/geofabric/drainagedivision/9400210> .
+
+<http://linked.data.gov.au/dataset/gnaf-2016-05/address/GAVIC411436309> a gnaf:Address ;
+    rdfs:label "Address GAVIC411436309 of Rural type"^^xsd:string ;
+    gnaf:gnafType <http://gnafld.net/def/gnaf/code/AddressTypes#Rural> ;
+    gnaf:hasAddressPrimary <http://linked.data.gov.au/dataset/gnaf-2016-05/address/GAVIC425683387> ;
+    gnaf:hasAddressSite <http://linked.data.gov.au/dataset/gnaf-2016-05/addressSite/411591483> ;
+    gnaf:hasDateCreated "2015-07-27"^^xsd:date ;
+    gnaf:hasDateLastModified "2016-04-28"^^xsd:date ;
+    gnaf:hasGnafConfidence <http://gnafld.net/def/gnaf/GnafConfidence_1> ;
+    gnaf:hasLocality <http://linked.data.gov.au/dataset/gnaf-2016-05/locality/VIC943> ;
+    gnaf:hasNumber [ a gnaf:Number ;
+            gnaf:gnafType <http://linked.data.gov.au/def/gnaf/code/NumberTypes#FirstStreet> ;
+            prov:value 1 ] ;
+    gnaf:hasPostcode 3921 ;
+    gnaf:hasState <http://www.geonames.org/2145234> ;
+    gnaf:hasStreetLocality <http://linked.data.gov.au/dataset/gnaf-2016-05/streetLocality/VIC2021622> ;
+    geo:hasGeometry [ a gnaf:Geocode ;
+            rdfs:label "Property Access Point Setback"^^xsd:string ;
+            gnaf:gnafType <http://gnafld.net/def/gnaf/code/GeocodeTypes#PropertyAccessPointSetback> ;
+            geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4283> POINT(145.35714361 -38.34785008)"^^geo:wktLiteral ] ;
+    rdfs:comment "1 Mcleod Road, French Island, VIC 3921"^^xsd:string .
+
+<http://linked.data.gov.au/dataset/gnaf-2016-05/address/GAVIC425683387> a gnaf:Address ;
+    rdfs:label "Address GAVIC425683387 of Rural type"^^xsd:string ;
+    gnaf:gnafType <http://gnafld.net/def/gnaf/code/AddressTypes#Rural> ;
+    gnaf:hasAddressSecondary <http://linked.data.gov.au/dataset/gnaf-2016-05/address/GAVIC411436309> ;
+    gnaf:hasAddressSite <http://linked.data.gov.au/dataset/gnaf-2016-05/addressSite/425771677> ;
+    gnaf:hasDateCreated "2015-07-27"^^xsd:date ;
+    gnaf:hasDateLastModified "2016-04-28"^^xsd:date ;
+    gnaf:hasGnafConfidence <http://gnafld.net/def/gnaf/GnafConfidence_0> ;
+    gnaf:hasLocality <http://linked.data.gov.au/dataset/gnaf-2016-05/locality/VIC943> ;
+    gnaf:hasNumber [ a gnaf:Number ;
+            gnaf:gnafType <http://linked.data.gov.au/def/gnaf/code/NumberTypes#FirstStreet> ;
+            prov:value 520 ] ;
+    gnaf:hasPostcode 3921 ;
+    gnaf:hasState <http://www.geonames.org/2145234> ;
+    gnaf:hasStreetLocality <http://linked.data.gov.au/dataset/gnaf-2016-05/streetLocality/VIC2021808> ;
+    geo:hasGeometry [ a gnaf:Geocode ;
+            rdfs:label "Property Access Point Setback"^^xsd:string ;
+            gnaf:gnafType <http://gnafld.net/def/gnaf/code/GeocodeTypes#PropertyAccessPointSetback> ;
+            geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4283> POINT(145.35561425 -38.34514321)"^^geo:wktLiteral ] ;
+    rdfs:comment "520 Mt Wellington Road, French Island, VIC 3921"^^xsd:string .
+
+<http://linked.data.gov.au/dataset/gnaf-2016-05/addressSite/411591483> a gnaf:AddressSite ;
+    gnaf:gnafType <http://gnafld.net/def/gnaf/code/AddressTypes#Rural> ;
+    geo:hasGeometry [ a gnaf:Geocode ;
+            rdfs:label "Property Access Point Setback"^^xsd:string ;
+            gnaf:gnafType <http://gnafld.net/def/gnaf/code/GeocodeTypes#PropertyAccessPointSetback> ;
+            geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4283> POINT(145.35714361 -38.34785008)"^^geo:wktLiteral ] ;
+    rdfs:comment "AddressSite 411591483 of Rural type"@en .
+
+<http://linked.data.gov.au/dataset/gnaf-2016-05/addressSite/411597020> a gnaf:AddressSite ;
+    gnaf:gnafType <http://gnafld.net/def/gnaf/code/AddressTypes#Unknown> ;
+    rdfs:comment "AddressSite 411597020"@en .
+
+<http://linked.data.gov.au/dataset/gnaf-2016-05/addressSite/412831053> a gnaf:AddressSite ;
+    gnaf:gnafType <http://gnafld.net/def/gnaf/code/AddressTypes#UnknownLot> ;
+    rdfs:comment "AddressSite 412831053 of Unknown Lot type"@en .
+
+<http://linked.data.gov.au/dataset/gnaf-2016-05/addressSite/412831054> a gnaf:AddressSite ;
+    gnaf:gnafType <http://gnafld.net/def/gnaf/code/AddressTypes#UnknownLot> ;
+    rdfs:comment "AddressSite 412831054 of Unknown Lot type"@en .
+
+<http://linked.data.gov.au/dataset/gnaf-2016-05/addressSite/412831149> a gnaf:AddressSite ;
+    gnaf:gnafType <http://gnafld.net/def/gnaf/code/AddressTypes#UnknownLot> ;
+    rdfs:comment "AddressSite 412831149 of Unknown Lot type"@en .
+
+<http://linked.data.gov.au/dataset/gnaf-2016-05/addressSite/412831151> a gnaf:AddressSite ;
+    gnaf:gnafType <http://gnafld.net/def/gnaf/code/AddressTypes#UnknownLot> ;
+    rdfs:comment "AddressSite 412831151 of Unknown Lot type"@en .
+
+<http://linked.data.gov.au/dataset/gnaf-2016-05/streetLocality/VIC2021622> a gnaf:StreetLocality ;
+    gnaf:hasLocality <http://linked.data.gov.au/dataset/gnaf-2016-05/locality/VIC943> ;
+    gnaf:hasName "Mcleod"^^xsd:string ;
+    gnaf:hasStreetType <http://linked.data.gov.au/def/gnaf/code/StreetTypes#Road> ;
+    geo:hasGeometry [ a gnaf:Geocode ;
+            rdfs:label "Locality"^^xsd:string ;
+            gnaf:gnafType <http://linked.data.gov.au/def/gnaf/code/GeocodeTypes#Locality> ;
+            geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4283> POINT(145.40205108 -38.35113933)"^^geo:wktLiteral ] .
+
+<http://linked.data.gov.au/dataset/gnaf-2016-05/streetLocality/VIC2050994> a gnaf:StreetLocality ;
+    gnaf:hasLocality <http://linked.data.gov.au/dataset/gnaf-2016-05/locality/VIC943> ;
+    gnaf:hasName "Ten Chain"^^xsd:string ;
+    gnaf:hasStreetType <http://linked.data.gov.au/def/gnaf/code/StreetTypes#Road> ;
+    geo:hasGeometry [ a gnaf:Geocode ;
+            rdfs:label "Locality"^^xsd:string ;
+            gnaf:gnafType <http://linked.data.gov.au/def/gnaf/code/GeocodeTypes#Locality> ;
+            geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4283> POINT(145.31364001 -38.39395284)"^^geo:wktLiteral ] .
+
+<http://gnafld.net/def/gnaf/GnafConfidence_1> rdfs:label "Confidence level 1"^^xsd:string .
+
+<http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/20503108801> a asgs:StatisticalAreaLevel1,
+        geo:Feature ;
+    geo:sfContains  <http://linked.data.gov.au/dataset/asgs2016/meshblock/20663970000> ;
+    dcterms:identfier "20503108801"^^asgs-id:sa1Maincode2016 ;
+    dcterms:identfier "20503108801"^^asgs-id:statisticalArea1Sa111DigitCode ;
+    geox:hasAreaM2 [ ns31:value 277215194.03785586 ;
+            ns21:crs <http://www.opengis.net/def/crs/EPSG/0/3857> ],
+        [ ns31:value 170229100.0000000298023223876953125 ;
+            ns21:crs <http://www.opengis.net/def/crs/EPSG/0/3577> ] ;
+    loci:isMemberOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/> ;
+    geo:hasGeometry <http://gds.loci.cat/geometry/asgs16_sa1/20503108801>   
+    .
+
+<http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel2/205031088> a asgs:StatisticalAreaLevel2,
+        geo:Feature ;
+    geo:sfContains  <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/20503108801> ;
+    dcterms:identfier "205031088"^^asgs-id:sa2Maincode2016 ;
+    asgs:label "French Island"^^asgs-id:sa2Name2016 ;
+    dcterms:identfier "205031088"^^statisticalArea2Sa29DigitCode ;
+    geox:hasAreaM2 [ ns31:value 277215194.03785586 ;
+            ns21:crs <http://www.opengis.net/def/crs/EPSG/0/3857> ],
+        [ ns31:value 170229100.0000000298023223876953125 ;
+            ns21:crs <http://www.opengis.net/def/crs/EPSG/0/3577> ] ;
+    loci:isMemberOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel2/> ;
+    geo:hasGeometry <http://gds.loci.cat/geometry/asgs16_sa2/205031088>   
+     .
+
+<http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel3/20503> a asgs:StatisticalAreaLevel3,
+        geo:Feature ;
+    geo:sfContains <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel2/205031088> ;
+    dcterms:identfier "20503"^^asgs-id:sa3Code2016 ;
+    asgs:label "Gippsland - South West"^^asgs-id:sa3Name2016 ;
+    dcterms:identfier "20503"^^asgs-id:statisticalArea3Sa35DigitCode ;
+    geox:hasAreaM2 [ ns31:value 7182003283.3232651 ;
+            ns21:crs <http://www.opengis.net/def/crs/EPSG/0/3857> ],
+        [ ns31:value 4381619100.0 ;
+            ns21:crs <http://www.opengis.net/def/crs/EPSG/0/3577> ] ;
+    loci:isMemberOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel3/> ;
+    geo:hasGeometry <http://gds.loci.cat/geometry/asgs16_sa3/20503>   
+    .
+
+<http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel4/205> a asgs:StatisticalAreaLevel4,
+        geo:Feature ;
+    geo:sfContains <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel3/20503> ;
+    dcterms:identfier "205"^^asgs-id:sa4Code2016 ;
+    asgs:label "Latrobe - Gippsland"^^asgs-id:sa4Name2016 ;
+    dcterms:identfier "205"^^asgs-id:statisticalArea4Sa43DigitCode ;
+    geox:hasAreaM2 [ ns31:value 41553751700.0 ;
+            ns21:crs <http://www.opengis.net/def/crs/EPSG/0/3577> ],
+        [ ns31:value 66552368323.950584 ;
+            ns21:crs <http://www.opengis.net/def/crs/EPSG/0/3857> ] ;
+    loci:isMemberOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel4/> ;
+    geo:hasGeometry <http://gds.loci.cat/geometry/asgs16_sa4/205>   
+    .
+
+<http://linked.data.gov.au/dataset/geofabric/drainagedivision/9400210> a geof:DrainageDivision ;
+    geof:perimeterLength [ qudt:numericValue "55.1849999999976"^^xsd:float ;
+            qudt:unit <http://qudt.org/vocab/unit/DEG> ] ;
+    geof:shapeArea [ qudt:numericValue "13.708425"^^xsd:float ;
+            qudt:unit <http://qudt.org/vocab/unit/DEG2> ] ;
+    geof:sourceId 10 ;
+    geox:hasAreaM2 [ ns31:value 134617156547.115 ;
+            ns21:crs <http://www.opengis.net/def/crs/EPSG/0/3577> ],
+        [ ns31:value 135039327241.81703 ;
+            ns21:crs <http://www.opengis.net/def/crs/EPSG/0/4938> ] ;
+    ns12:source "AWRA2010_REGIONS",
+        "Bureau of Meteorology",
+        "Geoscience Australia" ;
+    loci:isMemberOf <http://linked.data.gov.au/dataset/geofabric/drainagedivision/> ;
+    geo:hasGeometry <http://gds.loci.cat/geometry/geofabric2_1_1_drainagedivision/9400210>   
+.
+
+<http://linked.data.gov.au/dataset/gnaf-2016-05/streetLocality/VIC2021808> a gnaf:StreetLocality ;
+    gnaf:hasLocality <http://linked.data.gov.au/dataset/gnaf-2016-05/locality/VIC943> ;
+    gnaf:hasName "Mt Wellington"^^xsd:string ;
+    gnaf:hasStreetType <http://linked.data.gov.au/def/gnaf/code/StreetTypes#Road> ;
+    geo:hasGeometry [ a gnaf:Geocode ;
+            rdfs:label "Locality"^^xsd:string ;
+            gnaf:gnafType <http://linked.data.gov.au/def/gnaf/code/GeocodeTypes#Locality> ;
+            geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4283> POINT(145.35477441 -38.35923250)"^^geo:wktLiteral ] .
+
+<http://linked.data.gov.au/dataset/gnaf-2016-05/streetLocality/VIC2047702> a gnaf:StreetLocality ;
+    gnaf:hasLocality <http://linked.data.gov.au/dataset/gnaf-2016-05/locality/VIC943> ;
+    gnaf:hasName "Tankerton"^^xsd:string ;
+    gnaf:hasStreetType <http://linked.data.gov.au/def/gnaf/code/StreetTypes#Road> ;
+    geo:hasGeometry [ a gnaf:Geocode ;
+            rdfs:label "Locality"^^xsd:string ;
+            gnaf:gnafType <http://linked.data.gov.au/def/gnaf/code/GeocodeTypes#Locality> ;
+            geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4283> POINT(145.31043640 -38.38502194)"^^geo:wktLiteral ],
+        [ a gnaf:Geocode ;
+            rdfs:label "Locality"^^xsd:string ;
+            gnaf:gnafType <http://linked.data.gov.au/def/gnaf/code/GeocodeTypes#Locality> ;
+            geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4283> POINT(145.31043640 -38.38502194)"^^geo:wktLiteral ],
+        [ a gnaf:Geocode ;
+            rdfs:label "Locality"^^xsd:string ;
+            gnaf:gnafType <http://linked.data.gov.au/def/gnaf/code/GeocodeTypes#Locality> ;
+            geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4283> POINT(145.31043640 -38.38502194)"^^geo:wktLiteral ] .
+
+<http://gnafld.net/def/gnaf/GnafConfidence_0> rdfs:label "Confidence level 0"^^xsd:string .
+
+<http://linked.data.gov.au/dataset/asgs2016/meshblock/20663970000> a asgs:MeshBlock,
+        geo:Feature ;
+    dcterms:type mbcat:primary-production ;
+    dcterms:identifier  "20663970000"^^asgs-id:mbCode2016 ;
+    geox:hasAreaM2 [ ns31:value 95157257.606680378 ;
+            ns21:crs <http://www.opengis.net/def/crs/EPSG/0/3857> ],
+        [ ns31:value 58387600.000000007450580596923828125 ;
+            ns21:crs <http://www.opengis.net/def/crs/EPSG/0/3577> ] ;
+    loci:isMemberOf <http://linked.data.gov.au/dataset/asgs2016/meshblock/> ;
+    geo:hasGeometry <http://gds.loci.cat/geometry/asgs2016_meshblock/20663970000>   ;
+    .
+
+<http://www.geonames.org/2145234> rdfs:label "Victoria"^^xsd:string .
+
+<http://linked.data.gov.au/dataset/gnaf-2016-05/locality/VIC943> a gnaf:Locality ;
+    gnaf:hasAlias [ a gnaf:Alias ;
+            rdfs:label "Tankerton"^^xsd:string ;
+            gnaf:gnafType <http://linked.data.gov.au/def/gnaf/code/AliasTypes#Synonym> ] ;
+    gnaf:hasDateCreated "2013-10-31"^^xsd:date ;
+    gnaf:hasName "French Island"^^xsd:string ;
+    gnaf:hasState <http://www.geonames.org/2145234> ;
+    geo:hasGeometry [ a gnaf:Geocode ;
+            rdfs:label "Locality"^^xsd:string ;
+            gnaf:gnafType <http://linked.data.gov.au/def/gnaf/code/GeocodeTypes#Locality> ;
+            geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4283> POINT(145.36481264 -38.34990242)"^^geo:wktLiteral ] .
+
+[] a asgs:StateSuburb ;
+    asgs:contains <http://linked.data.gov.au/dataset/asgs2016/meshblock/20663970000> ;
+    asgs:sscCode2016 "20945" .
+
+[] a asgs:GreaterCapitalCityStatisticalArea ;
+    asgs:gccsaCode2016 "2RVIC" ;
+    asgs:greaterCapitalCityStatisticalAreasGccsa5CharacterAlphanumericCode "2RVIC" ;
+    asgs:isGreaterCapitalCityStatisticalAreaOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel4/205> .
+
+[] a asgs:NaturalResourceManagementRegion ;
+    asgs:contains <http://linked.data.gov.au/dataset/asgs2016/meshblock/20663970000> ;
+    asgs:nrmrCode2016 "208" .
+
+[] a asgs:DestinationZone ;
+    asgs:contains <http://linked.data.gov.au/dataset/asgs2016/meshblock/20663970000> ;
+    asgs:dznCode2016 "210883755" .
+
