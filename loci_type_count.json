@@ -1,11 +1,11 @@
 [
     [
         "<http://linked.data.gov.au/def/geofabric#ContractedCatchment>",
-        "30461"
+        "30460"
     ],
     [
         "geo:Feature",
-        "570379"
+        "570390"
     ],
     [
         "hyf:HY_Catchment",
@@ -21,7 +21,7 @@
     ],
     [
         "loci:Linkset",
-        "5"
+        "4"
     ],
     [
         "<http://linked.data.gov.au/def/asgs#MeshBlock>",
@@ -29,7 +29,7 @@
     ],
     [
         "geo:Geometry",
-        "418220"
+        "418219"
     ],
     [
         "<http://linked.data.gov.au/def/asgs#DestinationZone>",
@@ -49,7 +49,7 @@
     ],
     [
         "<http://linked.data.gov.au/def/asgs#StatisticalAreaLevel1>",
-        "57490"
+        "57489"
     ],
     [
         "<http://linked.data.gov.au/def/asgs#StatisticalAreaLevel2>",
