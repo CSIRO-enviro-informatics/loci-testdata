@@ -1,0 +1,53 @@
+# baseURI: http://example.org/loci/test-harness
+# imports: file:/C:/Users/cox075/dev/loci-testdata/loci-ld-dataset/loci-instances-1.ttl
+# imports: file:/C:/Users/cox075/dev/loci-testdata/loci-ld-dataset/loci-linkset-instances-1.ttl
+# imports: http://linked.data.gov.au/def/asgs
+# imports: http://linked.data.gov.au/def/asgs-cat
+# imports: http://linked.data.gov.au/def/asgs-id
+# imports: http://linked.data.gov.au/def/geofabric
+# imports: http://linked.data.gov.au/def/geox
+# imports: http://linked.data.gov.au/def/gnaf
+# imports: http://linked.data.gov.au/def/loci
+
+@prefix asgs: <http://linked.data.gov.au/def/asgs#> .
+@prefix asgs-cat: <http://linked.data.gov.au/def/asgs-cat#> .
+@prefix asgs-id: <http://linked.data.gov.au/def/asgs-id#> .
+@prefix data: <http://linked.data.gov.au/def/datatype/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix geofabric: <http://linked.data.gov.au/def/geofabric#> .
+@prefix geox: <http://linked.data.gov.au/def/geox#> .
+@prefix gnaf: <http://linked.data.gov.au/def/gnaf#> .
+@prefix loci: <http://linked.data.gov.au/def/loci#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix spin: <http://spinrdf.org/spin#> .
+@prefix test: <http://example.org/loci/test-harness/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/loci/test-harness>
+  a owl:Ontology ;
+  dcterms:created "2019-11-19" ;
+  dcterms:creator <https://orcid.org/0000-0002-3884-3420> ;
+  spin:imports <http://topbraid.org/spin/rdfsplus> ;
+  rdfs:comment """RDF test harness for Loc-I data. 
+
+This graph imports 
+1. the underlying data schemas - asgs-ont, geofabric-ont, gnaf-ont, loci-ont
+2. (temporarily) datasets and linksets""" ;
+  owl:imports <./loci-instances-1.ttl> ;
+  owl:imports <./loci-linkset-instances-1.ttl> ;
+  owl:imports <http://linked.data.gov.au/def/asgs> ;
+  owl:imports <http://linked.data.gov.au/def/asgs-cat> ;
+  owl:imports <http://linked.data.gov.au/def/asgs-id> ;
+  owl:imports <http://linked.data.gov.au/def/geofabric> ;
+  owl:imports <http://linked.data.gov.au/def/geox> ;
+  owl:imports <http://linked.data.gov.au/def/gnaf> ;
+  owl:imports <http://linked.data.gov.au/def/loci> ;
+.
