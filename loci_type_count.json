@@ -1,19 +1,7 @@
 [
     [
         "<http://linked.data.gov.au/def/geofabric#ContractedCatchment>",
-        "30460"
-    ],
-    [
-        "geo:Feature",
-        "570390"
-    ],
-    [
-        "hyf:HY_Catchment",
-        "0"
-    ],
-    [
-        "hyf:HY_HydroFeature",
-        "0"
+        "30461"
     ],
     [
         "<http://linked.data.gov.au/def/geofabric#RiverRegion>",
@@ -28,20 +16,12 @@
         "358009"
     ],
     [
-        "geo:Geometry",
-        "418219"
-    ],
-    [
-        "<http://linked.data.gov.au/def/asgs#DestinationZone>",
-        "358009"
-    ],
-    [
         "<http://linked.data.gov.au/def/asgs#NaturalResourceManagementRegion>",
-        "358009"
+        "60"
     ],
     [
         "<http://linked.data.gov.au/def/asgs#StateSuburb>",
-        "358009"
+        "15286"
     ],
     [
         "<http://linked.data.gov.au/def/asgs#StateOrTerritory>",
@@ -49,7 +29,7 @@
     ],
     [
         "<http://linked.data.gov.au/def/asgs#StatisticalAreaLevel1>",
-        "57489"
+        "57490"
     ],
     [
         "<http://linked.data.gov.au/def/asgs#StatisticalAreaLevel2>",
@@ -65,6 +45,6 @@
     ],
     [
         "<http://linked.data.gov.au/def/asgs#GreaterCapitalCityStatisticalArea>",
-        "89"
+        "16"
     ]
 ]
