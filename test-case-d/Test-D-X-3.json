@@ -1,0 +1,72 @@
+{
+    "meta": {
+        "count": 9,
+        "offset": 0,
+        "featureArea": "10184593700.00000000"
+    },
+    "overlaps": [
+        {
+            "uri": "http://linked.data.gov.au/dataset/geofabric/contractedcatchment/12500825",
+            "intersectionArea": "1451275467.4186792",
+            "featureArea": "53512493750.76860000",
+            "forwardPercentage": "14.249713932316016",
+            "reversePercentage": "2.712031089744971"
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/geofabric/contractedcatchment/12500319",
+            "intersectionArea": "5119484796.808034",
+            "featureArea": "44667013788.90000200",
+            "forwardPercentage": "50.26695170773513",
+            "reversePercentage": "11.46144405579281"
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/geofabric/contractedcatchment/12500910",
+            "intersectionArea": "564247858.5206275",
+            "featureArea": "3403333655.15246000",
+            "forwardPercentage": "5.540209802582773",
+            "reversePercentage": "16.579269495554374"
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/geofabric/contractedcatchment/12500958",
+            "intersectionArea": "249491172.80534375",
+            "featureArea": "250260836.65249000",
+            "forwardPercentage": "2.4496919578180494",
+            "reversePercentage": "99.69245533682324"
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/geofabric/contractedcatchment/12500928",
+            "intersectionArea": "479464149.05635256",
+            "featureArea": "727018430.76256000",
+            "forwardPercentage": "4.70773958372392",
+            "reversePercentage": "65.94938020394461"
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/geofabric/contractedcatchment/12500959",
+            "intersectionArea": "948728942.0993714",
+            "featureArea": "1226705360.72031000",
+            "forwardPercentage": "9.315334219953924",
+            "reversePercentage": "77.33959371811065"
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/geofabric/contractedcatchment/12501024",
+            "intersectionArea": "1193068166.7009103",
+            "featureArea": "1373809101.68712000",
+            "forwardPercentage": "11.7144404759211",
+            "reversePercentage": "86.84381004869971"
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/geofabric/contractedcatchment/12500976",
+            "intersectionArea": "68981191.1660584",
+            "featureArea": "68981191.29022990",
+            "forwardPercentage": "0.6773092103424647",
+            "reversePercentage": "99.99999981999224"
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/geofabric/contractedcatchment/12501104",
+            "intersectionArea": "104501644.37086168",
+            "featureArea": "598744775.89274000",
+            "forwardPercentage": "1.0260757321213676",
+            "reversePercentage": "17.45345405561956"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "count": 2,
+        "offset": 0,
+        "featureArea": "10184593700.00000000"
+    },
+    "overlaps": [
+        {
+            "uri": "http://linked.data.gov.au/dataset/geofabric/riverregion/9400291",
+            "intersectionArea": "3282724632.0100794",
+            "featureArea": "121447895188.67200000",
+            "forwardPercentage": "32.23225912301322",
+            "reversePercentage": "2.7029901398540455"
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/geofabric/riverregion/9400297",
+            "intersectionArea": "6896518756.936159",
+            "featureArea": "90980282459.90530000",
+            "forwardPercentage": "67.71520749950152",
+            "reversePercentage": "7.5802344974862335"
+        }
+    ]
+}

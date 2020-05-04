@@ -1,0 +1,16 @@
+{
+    "meta": {
+        "count": 1,
+        "offset": 0,
+        "featureArea": "686200.00000000"
+    },
+    "overlaps": [
+        {
+            "uri": "http://linked.data.gov.au/dataset/asgs2016/localgovernmentarea/89399",
+            "intersection_area": 686200.0,
+            "forwardPercentage": 100.0,
+            "featureArea": "2358172000.00000000",
+            "reversePercentage": 0.0290988104
+        }
+    ]
+}

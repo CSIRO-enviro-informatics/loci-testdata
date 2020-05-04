@@ -1,0 +1,58 @@
+{
+    "meta": {
+        "count": 7,
+        "offset": 0,
+        "featureArea": "763424848200.00000000"
+    },
+    "overlaps": [
+        {
+            "uri": "http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel2/406021141",
+            "intersection_area": 900883390587.6437,
+            "forwardPercentage": 118.0055106553,
+            "featureArea": "513381550300.00000000",
+            "reversePercentage": 175.4802816855
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel2/406011134",
+            "intersection_area": 63751816337.394745,
+            "forwardPercentage": 8.3507651719,
+            "featureArea": "31878863300.00000000",
+            "reversePercentage": 199.9814602467
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel2/406011129",
+            "intersection_area": 826675214.7384399,
+            "forwardPercentage": 0.1082850809,
+            "featureArea": "413337500.00000006",
+            "reversePercentage": 200.0000519523
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel2/406011132",
+            "intersection_area": 18592734110.461216,
+            "forwardPercentage": 2.4354373786,
+            "featureArea": "11387246300.00000000",
+            "reversePercentage": 163.2768240945
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel2/406021139",
+            "intersection_area": 155359130.26382,
+            "forwardPercentage": 0.0203502847,
+            "featureArea": "77679500.00000000",
+            "reversePercentage": 200.0001676939
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel2/406011135",
+            "intersection_area": 337911552600.0,
+            "forwardPercentage": 44.2625824135,
+            "featureArea": "168955776300.00000000",
+            "reversePercentage": 200.0
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel2/406021138",
+            "intersection_area": 204728170818.52805,
+            "forwardPercentage": 26.8170693293,
+            "featureArea": "102364085300.00000000",
+            "reversePercentage": 200.0000002135
+        }
+    ]
+}

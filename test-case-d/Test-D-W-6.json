@@ -1,0 +1,65 @@
+{
+    "meta": {
+        "count": 8,
+        "offset": 0,
+        "featureArea": "763424848200.00000000"
+    },
+    "overlaps": [
+        {
+            "uri": "http://linked.data.gov.au/dataset/asgs2016/localgovernmentarea/49399",
+            "intersection_area": 537387983804.2491,
+            "forwardPercentage": 70.3917333934,
+            "featureArea": "622489195300.00000000",
+            "reversePercentage": 86.3288853625
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/asgs2016/localgovernmentarea/47490",
+            "intersection_area": 6219903897.870219,
+            "forwardPercentage": 0.8147368942,
+            "featureArea": "6222859100.00000095",
+            "reversePercentage": 99.9525105409
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/asgs2016/localgovernmentarea/41010",
+            "intersection_area": 5420344081.380909,
+            "forwardPercentage": 0.710003623,
+            "featureArea": "5420343600.00000000",
+            "reversePercentage": 100.000008881
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/asgs2016/localgovernmentarea/48640",
+            "intersection_area": 4769598514.300091,
+            "forwardPercentage": 0.6247633314,
+            "featureArea": "5075278300.00000000",
+            "reversePercentage": 93.9770832725
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/asgs2016/localgovernmentarea/41330",
+            "intersection_area": 77679630.26381999,
+            "forwardPercentage": 0.0101751509,
+            "featureArea": "77679500.00000000",
+            "reversePercentage": 100.0001676939
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/asgs2016/localgovernmentarea/41750",
+            "intersection_area": 4492390296.16113,
+            "forwardPercentage": 0.5884521976,
+            "featureArea": "6741931700.00000000",
+            "reversePercentage": 66.6335776757
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/asgs2016/localgovernmentarea/44000",
+            "intersection_area": 102703899000.0,
+            "forwardPercentage": 13.4530463925,
+            "featureArea": "102703899000.00000000",
+            "reversePercentage": 100.0
+        },
+        {
+            "uri": "http://linked.data.gov.au/dataset/asgs2016/localgovernmentarea/40250",
+            "intersection_area": 102353051374.80478,
+            "forwardPercentage": 13.4070893312,
+            "featureArea": "102353051200.00000000",
+            "reversePercentage": 100.0000001708
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "meta": {
+        "count": 1,
+        "offset": 0,
+        "featureArea": "10184593700.00000000"
+    },
+    "overlaps": [
+        {
+            "uri": "http://linked.data.gov.au/dataset/geofabric/drainagedivision/9400211",
+            "intersectionArea": "10179243388.946247",
+            "featureArea": "326037436998.26800000",
+            "forwardPercentage": "99.94746662251482",
+            "reversePercentage": "3.122108762313796"
+        }
+    ]
+}

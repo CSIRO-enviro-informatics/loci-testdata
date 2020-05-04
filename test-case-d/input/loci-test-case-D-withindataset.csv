@@ -1,0 +1,7 @@
+testcase	input	target_region_type
+D-W-1	http://linked.data.gov.au/dataset/asgs2016/localgovernmentarea/55880	http://linked.data.gov.au/def/asgs#StatisticalAreaLevel1
+D-W-2	http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/80105105310	http://linked.data.gov.au/def/asgs#LocalGovernmentArea
+D-W-3	http://linked.data.gov.au/dataset/asgs2016/remotenessarea/44	http://linked.data.gov.au/def/asgs#StatisticalAreaLevel2
+D-W-4	http://linked.data.gov.au/dataset/asgs2016/remotenessarea/44	http://linked.data.gov.au/def/asgs#StatisticalAreaLevel1
+D-W-5	http://linked.data.gov.au/dataset/asgs2016/remotenessarea/44	http://linked.data.gov.au/def/asgs#MeshBlock
+D-W-6	http://linked.data.gov.au/dataset/asgs2016/remotenessarea/44	http://linked.data.gov.au/def/asgs#LocalGovernmentArea
