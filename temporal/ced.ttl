@@ -17,6 +17,10 @@
 
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/139>
   a asgs:CommonwealthElectoralDivision ;
+  loci:entityLifecycle [
+      a loci:Lifecycle ;
+      time:hasBeginning <http://linked.data.gov.au/dataset/calendar/2016-07-01> ;
+    ] ;
   loci:hasArea "48941.9263 km2"^^cdt:ucum ;
   dcterms:identifier "139"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Riverina" ;
@@ -292,6 +296,11 @@
   dcterms:identifier "209"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Corangamite" ;
 .
+<http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/211>
+  a asgs:CommonwealthElectoralDivision ;
+  dcterms:identifier "211"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
+  dcterms:title "Deakin" ;
+.
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/211/2011-07>
   a asgs:CommonwealthElectoralDivision ;
   loci:entityLifecycle [
@@ -309,6 +318,35 @@
       a loci:Lifecycle ;
       time:hasBeginning <http://linked.data.gov.au/dataset/calendar/2013-07-01> ;
       time:hasEnd <http://linked.data.gov.au/dataset/calendar/2016-06-30> ;
+    ] ;
+  dcterms:identifier "211"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
+  dcterms:title "Deakin" ;
+.
+<http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/211/2016-07>
+  a asgs:CommonwealthElectoralDivision ;
+  loci:entityLifecycle [
+      a loci:Lifecycle ;
+      time:hasBeginning <http://linked.data.gov.au/dataset/calendar/2016-07-01> ;
+      time:hasEnd <http://linked.data.gov.au/dataset/calendar/2017-06-30> ;
+    ] ;
+  dcterms:identifier "211"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
+  dcterms:title "Deakin" ;
+.
+<http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/211/2017-07>
+  a asgs:CommonwealthElectoralDivision ;
+  loci:entityLifecycle [
+      a loci:Lifecycle ;
+      time:hasBeginning <http://linked.data.gov.au/dataset/calendar/2017-07-01> ;
+      time:hasEnd <http://linked.data.gov.au/dataset/calendar/2018-06-30> ;
+    ] ;
+  dcterms:identifier "211"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
+  dcterms:title "Deakin" ;
+.
+<http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/211/2018-07>
+  a asgs:CommonwealthElectoralDivision ;
+  loci:entityLifecycle [
+      a loci:Lifecycle ;
+      time:hasBeginning <http://linked.data.gov.au/dataset/calendar/2018-07-01> ;
     ] ;
   dcterms:identifier "211"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Deakin" ;
