@@ -5,7 +5,7 @@
 @prefix cdt: <http://w3id.org/lindt/custom_datatypes#> .
 @prefix ced: <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/> .
 @prefix data: <http://linked.data.gov.au/def/datatype/> .
-@prefix date: <http://linked.data.gov.au/dataset/calendar/> .
+@prefix date: <http://linked.data.gov.au/dataset/date/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix geox: <http://linked.data.gov.au/def/geox#> .
 @prefix loci: <http://linked.data.gov.au/def/loci#> .
@@ -17,62 +17,62 @@
 
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/139>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2016-07-01/present> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2016-07-01/present> ;
   loci:hasArea "48941.9263 km2"^^cdt:ucum ;
   dcterms:identifier "139"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Riverina" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/139/2016-07>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2016-07-01/2017-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2016-07-01/2017-06-30> ;
   loci:hasArea "48941.9 km2"^^cdt:ucum ;
   dcterms:identifier "139"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Riverina" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/139/2017-07>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2017-07-01/2018-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2017-07-01/2018-06-30> ;
   loci:hasArea "48941.9263 km2"^^cdt:ucum ;
   dcterms:identifier "139"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Riverina" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/139/2018-07>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2018-07-01/present> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2018-07-01/present> ;
   loci:hasArea "48941.9263 km2"^^cdt:ucum ;
   dcterms:identifier "139"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Riverina" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/140/2011-07>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2011-07-01/2013-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2011-07-01/2013-06-30> ;
   dcterms:identifier "140"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Riverina" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/140/2013-07>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2013-07-01/2016-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2013-07-01/2016-06-30> ;
   dcterms:identifier "140"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Riverina" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/206>
   a asgs:CommonwealthElectoralDivision ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/21105128518> ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2018-07-01/present> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2018-07-01/present> ;
   dcterms:identifier "206"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Casey" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/206/2018-07>
   a asgs:CommonwealthElectoralDivision ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/21105128518> ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2018-07-01/present> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2018-07-01/present> ;
   dcterms:identifier "206"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Casey" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/207>
   a asgs:CommonwealthElectoralDivision ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/20703116718> ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2018-07-01/present> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2018-07-01/present> ;
   loci:hasArea "65.8217 km2"^^cdt:ucum ;
   dcterms:identifier "207"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Chisholm" ;
@@ -81,35 +81,35 @@
   a asgs:CommonwealthElectoralDivision ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2011/statisticalarealevel1/21103126439> ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2011/statisticalarealevel1/21105128518> ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2011-07-01/2013-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2011-07-01/2013-06-30> ;
   dcterms:identifier "207"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Casey" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/207/2013-07>
   a asgs:CommonwealthElectoralDivision ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2011/statisticalarealevel1/21105128518> ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2013-07-01/2016-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2013-07-01/2016-06-30> ;
   dcterms:identifier "207"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Casey" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/207/2016-07>
   a asgs:CommonwealthElectoralDivision ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/21105128518> ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2016-07-01/2017-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2016-07-01/2017-06-30> ;
   dcterms:identifier "207"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Casey" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/207/2017-07>
   a asgs:CommonwealthElectoralDivision ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/21105128518> ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2017-07-01/2018-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2017-07-01/2018-06-30> ;
   dcterms:identifier "207"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Casey" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/207/2018-07>
   a asgs:CommonwealthElectoralDivision ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/20703116718> ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2018-07-01/present> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2018-07-01/present> ;
   loci:hasArea "65.8217 km2"^^cdt:ucum ;
   dcterms:identifier "207"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Chisholm" ;
@@ -117,7 +117,7 @@
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/208>
   a asgs:CommonwealthElectoralDivision ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/21205132421> ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2018-07-01/present> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2018-07-01/present> ;
   dcterms:identifier "208" ;
   dcterms:title "Cooper" ;
 .
@@ -126,7 +126,7 @@
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2011/statisticalarealevel1/20703116718> ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2011/statisticalarealevel1/21205132001> ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2011/statisticalarealevel1/21205132421> ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2011-07-01/2013-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2011-07-01/2013-06-30> ;
   dcterms:identifier "208"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Chisholm" ;
 .
@@ -135,7 +135,7 @@
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2011/statisticalarealevel1/20703116718> ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2011/statisticalarealevel1/21205132001> ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2011/statisticalarealevel1/21205132421> ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2013-07-01/2016-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2013-07-01/2016-06-30> ;
   dcterms:identifier "208"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Chisholm" ;
 .
@@ -144,7 +144,7 @@
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/20703116718> ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/21205132001> ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/21205132421> ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2016-07-01/2017-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2016-07-01/2017-06-30> ;
   loci:hasArea "64.7179 km2"^^cdt:ucum ;
   dcterms:identifier "208"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Chisholm" ;
@@ -154,7 +154,7 @@
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/20703116718> ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/21205132001> ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/21205132421> ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2017-07-01/2018-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2017-07-01/2018-06-30> ;
   loci:hasArea "64.7179 km2"^^cdt:ucum ;
   dcterms:identifier "208"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Chisholm" ;
@@ -162,7 +162,7 @@
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/208/2018-07>
   a asgs:CommonwealthElectoralDivision ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/21205132421> ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2018-07-01/present> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2018-07-01/present> ;
   dcterms:identifier "208" ;
   dcterms:title "Cooper" ;
 .
@@ -174,33 +174,33 @@
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/209/2011-07>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2011-07-01/2013-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2011-07-01/2013-06-30> ;
   dcterms:identifier "209"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Corangamite" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/209/2013-07>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2013-07-01/2016-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2013-07-01/2016-06-30> ;
   dcterms:identifier "209"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Corangamite" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/209/2016-07>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2016-07-01/2017-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2016-07-01/2017-06-30> ;
   loci:hasArea "7691.92 km2"^^cdt:ucum ;
   dcterms:identifier "209"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Corangamite" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/209/2017-07>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2017-07-01/2018-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2017-07-01/2018-06-30> ;
   loci:hasArea "7691.92 km2"^^cdt:ucum ;
   dcterms:identifier "209"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Corangamite" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/209/2018-07>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2018-07-01/present> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2018-07-01/present> ;
   loci:hasArea "5288.9359 km2"^^cdt:ucum ;
   dcterms:identifier "209"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Corangamite" ;
@@ -212,105 +212,78 @@
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/211/2011-07>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2011-07-01/2013-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2011-07-01/2013-06-30> ;
   dcterms:identifier "211"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Deakin" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/211/2013-07>
   a asgs:CommonwealthElectoralDivision ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2011/statisticalarealevel1/21103126439> ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2013-07-01/2016-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2013-07-01/2016-06-30> ;
   dcterms:identifier "211"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Deakin" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/211/2016-07>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2016-07-01/2017-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2016-07-01/2017-06-30> ;
   dcterms:identifier "211"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Deakin" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/211/2017-07>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2017-07-01/2018-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2017-07-01/2018-06-30> ;
   dcterms:identifier "211"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Deakin" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/211/2018-07>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2018-07-01/present> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2018-07-01/present> ;
   dcterms:identifier "211"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Deakin" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/220/2011-07>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2011-07-01/2013-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2011-07-01/2013-06-30> ;
   dcterms:identifier "220"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Hotham" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/220/2013-07>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2013-07-01/2016-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2013-07-01/2016-06-30> ;
   dcterms:identifier "220"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Hotham" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/220/2016-07>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2016-07-01/2017-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2016-07-01/2017-06-30> ;
   dcterms:identifier "220"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Hotham" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/220/2017-07>
   a asgs:CommonwealthElectoralDivision ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2017-07-01/2018-06-30> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2017-07-01/2018-06-30> ;
   dcterms:identifier "220"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Hotham" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/221>
   a asgs:CommonwealthElectoralDivision ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/21205132001> ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2018-07-01/present> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2018-07-01/present> ;
   dcterms:identifier "221"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Hotham" ;
 .
 <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/221/2018-07>
   a asgs:CommonwealthElectoralDivision ;
   asgs:isAggregationOf <http://linked.data.gov.au/dataset/asgs2016/statisticalarealevel1/21205132001> ;
-  loci:entityLifecycle <http://linked.data.gov.au/dataset/asgs/interval/2018-07-01/present> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2018-07-01/present> ;
   dcterms:identifier "221"^^<http://linked.data.gov.au/def/asgs/id#cedCode> ;
   dcterms:title "Hotham" ;
-.
-<http://linked.data.gov.au/dataset/asgs/interval/2011-07-01/2013-06-30>
-  a time:Interval ;
-  time:hasBeginning <http://linked.data.gov.au/dataset/calendar/2011-07-01> ;
-  time:hasEnd <http://linked.data.gov.au/dataset/calendar/2013-06-30> ;
-.
-<http://linked.data.gov.au/dataset/asgs/interval/2013-07-01/2016-06-30>
-  a time:Interval ;
-  time:hasBeginning <http://linked.data.gov.au/dataset/calendar/2013-07-01> ;
-  time:hasEnd <http://linked.data.gov.au/dataset/calendar/2016-06-30> ;
-.
-<http://linked.data.gov.au/dataset/asgs/interval/2016-07-01/2017-06-30>
-  a time:Interval ;
-  time:hasBeginning <http://linked.data.gov.au/dataset/calendar/2016-07-01> ;
-  time:hasEnd <http://linked.data.gov.au/dataset/calendar/2017-06-30> ;
-.
-<http://linked.data.gov.au/dataset/asgs/interval/2016-07-01/present>
-  a time:Interval ;
-  time:hasBeginning <http://linked.data.gov.au/dataset/calendar/2016-07-01> ;
-.
-<http://linked.data.gov.au/dataset/asgs/interval/2017-07-01/2018-06-30>
-  a time:Interval ;
-  time:hasBeginning <http://linked.data.gov.au/dataset/calendar/2017-07-01> ;
-  time:hasEnd <http://linked.data.gov.au/dataset/calendar/2018-06-30> ;
-.
-<http://linked.data.gov.au/dataset/asgs/interval/2018-07-01/present>
-  a time:Interval ;
-  time:hasBeginning <http://linked.data.gov.au/dataset/calendar/2018-07-01> ;
 .
 <http://linked.data.gov.au/dataset/asgs2011/statisticalarealevel1/20703116718>
   a asgs:StatisticalAreaLevel1 ;
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/208/2011-07> ;
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/208/2013-07> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2011-07-01/2016-06-30> ;
   loci:hasArea "0.1298 km2"^^cdt:ucum ;
   dcterms:identifier "20703116718"^^<http://linked.data.gov.au/def/asgs/id#sa1Code> ;
 .
@@ -318,6 +291,7 @@
   a asgs:StatisticalAreaLevel1 ;
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/207/2011-07> ;
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/211/2013-07> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2011-07-01/2016-06-30> ;
   loci:hasArea "0.254 km2"^^cdt:ucum ;
   dcterms:identifier "21103126439"^^<http://linked.data.gov.au/def/asgs/id#sa1Code> ;
 .
@@ -325,6 +299,7 @@
   a asgs:StatisticalAreaLevel1 ;
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/207/2011-07> ;
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/207/2013-07> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2011-07-01/2016-06-30> ;
   loci:hasArea "0.4614 km2"^^cdt:ucum ;
   dcterms:identifier "21105128518"^^<http://linked.data.gov.au/def/asgs/id#sa1Code> ;
 .
@@ -332,6 +307,7 @@
   a asgs:StatisticalAreaLevel1 ;
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/208/2011-07> ;
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/208/2013-07> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2011-07-01/2016-06-30> ;
   loci:hasArea "0.1245 km2"^^cdt:ucum ;
   dcterms:identifier "21205132001"^^<http://linked.data.gov.au/def/asgs/id#sa1Code> ;
 .
@@ -339,6 +315,7 @@
   a asgs:StatisticalAreaLevel1 ;
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/208/2011-07> ;
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/208/2013-07> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2011-07-01/2016-06-30> ;
   loci:hasArea "0.2204 km2"^^cdt:ucum ;
   dcterms:identifier "21205132421"^^<http://linked.data.gov.au/def/asgs/id#sa1Code> ;
 .
@@ -348,6 +325,7 @@
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/207/2018-07> ;
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/208/2016-07> ;
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/208/2017-07> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2016-07-01/2021-06-30> ;
   loci:hasArea "0.1297 km2"^^cdt:ucum ;
   dcterms:identifier "20703116718"^^<http://linked.data.gov.au/def/asgs/id#sa1Code> ;
 .
@@ -357,6 +335,7 @@
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/206/2018-07> ;
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/207/2016-07> ;
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/207/2017-07> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2016-07-01/2021-06-30> ;
   loci:hasArea "0.4614 km2"^^cdt:ucum ;
   dcterms:identifier "21105128518"^^<http://linked.data.gov.au/def/asgs/id#sa1Code> ;
 .
@@ -366,6 +345,7 @@
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/208/2017-07> ;
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/221> ;
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/221/2018-07> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2016-07-01/2021-06-30> ;
   loci:hasArea "0.1246 km2"^^cdt:ucum ;
   dcterms:identifier "21205132001"^^<http://linked.data.gov.au/def/asgs/id#sa1Code> ;
 .
@@ -375,50 +355,129 @@
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/208/2016-07> ;
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/208/2017-07> ;
   asgs:aggregatesTo <http://linked.data.gov.au/dataset/asgs/commonwealthelectoraldivision/208/2018-07> ;
+  loci:entityLifecycle <http://linked.data.gov.au/dataset/date/2016-07-01/2021-06-30> ;
   loci:hasArea "0.2203 km2"^^cdt:ucum ;
   dcterms:identifier "21205132421"^^<http://linked.data.gov.au/def/asgs/id#sa1Code> ;
 .
-<http://linked.data.gov.au/dataset/calendar/2016-06-30>
+<http://linked.data.gov.au/dataset/date/2011-06-30>
+  a time:Instant ;
+  time:inXSDDate "2011-06-30"^^xsd:date ;
+.
+<http://linked.data.gov.au/dataset/date/2011-07-01>
+  a time:Instant ;
+  time:inXSDDate "2011-07-01"^^xsd:date ;
+.
+<http://linked.data.gov.au/dataset/date/2011-07-01/2013-06-30>
+  a time:Interval ;
+  time:hasBeginning <http://linked.data.gov.au/dataset/date/2011-07-01> ;
+  time:hasEnd <http://linked.data.gov.au/dataset/date/2013-06-30> ;
+.
+<http://linked.data.gov.au/dataset/date/2011-07-01/2016-06-30>
+  a time:Interval ;
+  time:hasBeginning <http://linked.data.gov.au/dataset/date/2011-07-01> ;
+  time:hasEnd <http://linked.data.gov.au/dataset/date/2016-06-30> ;
+.
+<http://linked.data.gov.au/dataset/date/2012-06-30>
+  a time:Instant ;
+  time:inXSDDate "2012-06-30"^^xsd:date ;
+.
+<http://linked.data.gov.au/dataset/date/2012-07-01>
+  a time:Instant ;
+  time:inXSDDate "2012-07-01"^^xsd:date ;
+.
+<http://linked.data.gov.au/dataset/date/2013-06-30>
+  a time:Instant ;
+  time:inXSDDate "2013-06-30"^^xsd:date ;
+.
+<http://linked.data.gov.au/dataset/date/2013-07-01>
+  a time:Instant ;
+  time:inXSDDate "2013-07-01"^^xsd:date ;
+.
+<http://linked.data.gov.au/dataset/date/2013-07-01/2016-06-30>
+  a time:Interval ;
+  time:hasBeginning <http://linked.data.gov.au/dataset/date/2013-07-01> ;
+  time:hasEnd <http://linked.data.gov.au/dataset/date/2016-06-30> ;
+.
+<http://linked.data.gov.au/dataset/date/2014-06-30>
+  a time:Instant ;
+  time:inXSDDate "2014-06-30"^^xsd:date ;
+.
+<http://linked.data.gov.au/dataset/date/2014-07-01>
+  a time:Instant ;
+  time:inXSDDate "2014-07-01"^^xsd:date ;
+.
+<http://linked.data.gov.au/dataset/date/2015-06-30>
+  a time:Instant ;
+  time:inXSDDate "2015-06-30"^^xsd:date ;
+.
+<http://linked.data.gov.au/dataset/date/2015-07-01>
+  a time:Instant ;
+  time:inXSDDate "2015-07-01"^^xsd:date ;
+.
+<http://linked.data.gov.au/dataset/date/2016-06-30>
   a time:Instant ;
   time:inXSDDate "2016-06-30"^^xsd:date ;
 .
-<http://linked.data.gov.au/dataset/calendar/2016-07-01>
+<http://linked.data.gov.au/dataset/date/2016-07-01>
   a time:Instant ;
   time:inXSDDate "2016-07-01"^^xsd:date ;
 .
-<http://linked.data.gov.au/dataset/calendar/2017-06-30>
+<http://linked.data.gov.au/dataset/date/2016-07-01/2017-06-30>
+  a time:Interval ;
+  time:hasBeginning <http://linked.data.gov.au/dataset/date/2016-07-01> ;
+  time:hasEnd <http://linked.data.gov.au/dataset/date/2017-06-30> ;
+.
+<http://linked.data.gov.au/dataset/date/2016-07-01/2021-06-30>
+  a time:Interval ;
+  time:hasBeginning <http://linked.data.gov.au/dataset/date/2016-07-01> ;
+  time:hasEnd <http://linked.data.gov.au/dataset/date/2021-06-30> ;
+.
+<http://linked.data.gov.au/dataset/date/2016-07-01/present>
+  a time:Interval ;
+  time:hasBeginning <http://linked.data.gov.au/dataset/date/2016-07-01> ;
+.
+<http://linked.data.gov.au/dataset/date/2017-06-30>
   a time:Instant ;
   time:inXSDDate "2017-06-30"^^xsd:date ;
 .
-<http://linked.data.gov.au/dataset/calendar/2017-07-01>
+<http://linked.data.gov.au/dataset/date/2017-07-01>
   a time:Instant ;
   time:inXSDDate "2017-07-01"^^xsd:date ;
 .
-<http://linked.data.gov.au/dataset/calendar/2018-06-30>
+<http://linked.data.gov.au/dataset/date/2017-07-01/2018-06-30>
+  a time:Interval ;
+  time:hasBeginning <http://linked.data.gov.au/dataset/date/2017-07-01> ;
+  time:hasEnd <http://linked.data.gov.au/dataset/date/2018-06-30> ;
+.
+<http://linked.data.gov.au/dataset/date/2018-06-30>
   a time:Instant ;
   time:inXSDDate "2018-06-30"^^xsd:date ;
 .
-<http://linked.data.gov.au/dataset/calendar/2018-07-01>
+<http://linked.data.gov.au/dataset/date/2018-07-01>
   a time:Instant ;
   time:inXSDDate "2018-07-01"^^xsd:date ;
 .
-<http://linked.data.gov.au/dataset/calendar/2019-06-30>
+<http://linked.data.gov.au/dataset/date/2018-07-01/present>
+  a time:Interval ;
+  time:hasBeginning <http://linked.data.gov.au/dataset/date/2018-07-01> ;
+.
+<http://linked.data.gov.au/dataset/date/2019-06-30>
   a time:Instant ;
   time:inXSDDate "2019-06-30"^^xsd:date ;
 .
-<http://linked.data.gov.au/dataset/calendar/2019-07-01>
+<http://linked.data.gov.au/dataset/date/2019-07-01>
   a time:Instant ;
   time:inXSDDate "2019-07-01"^^xsd:date ;
 .
-<http://linked.data.gov.au/dataset/calendar/2020-06-30>
+<http://linked.data.gov.au/dataset/date/2020-06-30>
   a time:Instant ;
   time:inXSDDate "2020-06-30"^^xsd:date ;
 .
-<http://linked.data.gov.au/dataset/calendar/2020-07-01>
+<http://linked.data.gov.au/dataset/date/2020-07-01>
   a time:Instant ;
   time:inXSDDate "2020-07-01"^^xsd:date ;
 .
-<http://linked.data.gov.au/dataset/calendar/2021-06-30>
+<http://linked.data.gov.au/dataset/date/2021-06-30>
   a time:Instant ;
   time:inXSDDate "2021-06-30"^^xsd:date ;
 .
